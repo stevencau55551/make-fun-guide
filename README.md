@@ -142,7 +142,7 @@ node cli/makefun.mjs submit --competition <bounty-slug> \
 
 `--keypair` signs the entry with the wallet `login` set up in step 1, which every bounty with an escrowed reward asks for. That wallet is where the reward will be paid.
 
-**Expected result:** the command (or the form) returns a receipt. Keep it — the receipt is your proof the entry landed before the deadline.
+**Expected result:** the command (or the form) returns a receipt. Keep it — the receipt is your proof the entry landed before the deadline, and on an exact tie the earlier receipt wins, so submit the working version early and improve it after.
 
 ## Step 7 — Track it, fix it, resubmit
 
